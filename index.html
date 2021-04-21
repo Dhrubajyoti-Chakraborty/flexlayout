@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .header, .navbar{
+            text-align: center;
+        }
+        .header{
+            height: 100px;
+            background: skyblue;
+        }
+        .navbar{
+            height: 30px;
+            background: blue;
+            color: #fff;
+        }
+        .left{
+            height: 400px;
+            background: yellow;
+            flex-grow: 1;
+            text-align: center;
+            
+        }
+        .middle{
+            height: 400px;
+            background: teal;
+            flex-grow: 6;
+            text-align: center;
+
+        }
+        .right{
+            height: 400px;
+            background: paleturquoise;
+            flex-grow: 1;
+            text-align: center;
+        }
+       .bodycontent{
+           display: flex;
+           
+       }
+       .footer{
+           background: plum;
+           height: 100px;
+           text-align: center;
+           justify-content: center;
+       }
+
+
+    </style>
+</head>
+<body>
+<div class="pagecontainer">
+
+    <div class="header"><h1>Header</h1></div>
+    <div class="navbar"><h3>Navbar</h3></div>
+    <div class="bodycontent">
+        <div class="left">Left Sidebar</div>
+        <div class="middle">Middle Content</div>
+        <div class="right">Right Sidebar</div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
+
+    
+</body>
+</html>
